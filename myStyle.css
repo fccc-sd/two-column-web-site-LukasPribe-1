@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    font: bold 1.875em/1em Georgia, 'Times New Roman', Times, serif;
+    font: bold 1.875em/2em Georgia, 'Times New Roman', Times, serif;
     color: rgb(97, 75, 163);
     height: 100px;
     width: 910px;
@@ -23,6 +23,7 @@ header {
     background-color: rgb(142, 184, 207);
     margin-bottom: 10px;
 }
+
 
 nav {
     width: 940px;
@@ -36,6 +37,24 @@ nav li {
     padding-right: 40px;
 }
 
+nav a:link {
+    color: rgb(184, 237, 159);
+    text-decoration: none
+}
+
+nav a:visited {
+    color: rgb(184, 237, 159);
+}
+
+nav a:hover {
+    color: rgb(153, 225, 118);
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: rgb(94, 181, 51);
+}
+
 aside {
     width: 200px;
     height: 400px;
@@ -46,6 +65,7 @@ aside {
 }
 
 section {
+    font-size: .875em;
     width: 710px;
     height: 400px;
     margin: 0 0 10px 0;
@@ -63,6 +83,21 @@ h3 {
 p {
     font-size: 1em;
     color: rgb(97, 182, 52);
+}
+
+ul{
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#favorite {
+    color: rgb(97, 182, 52);
+}
+
+#gameSection {
+    font-size: 1em;
+    color: rgb(97, 182, 52);
+    font-style: italic;
 }
 
 footer {
