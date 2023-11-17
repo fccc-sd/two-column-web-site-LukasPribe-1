@@ -58,7 +58,7 @@ nav a:active {
 
 aside {
     width: 210px;
-    height: 415px;
+    height: 500px;
     margin: 0 10px 10px 0;
     padding: 10px;
     background-color: rgb(96, 147, 175);
@@ -68,7 +68,7 @@ aside {
 section {
     font-size: .875em;
     width: 700px;
-    height: 415px;
+    height: 500px;
     margin: 0 0 10px 0;
     padding: 10px;
     background-color: rgb(96, 147, 175);
@@ -97,6 +97,31 @@ ul{
     color: rgb(97, 182, 52);
 }
 
+table{
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    border: solid 2px ;
+    width: 135px;
+    padding: 3px;
+    text-align: center;
+}
+th{
+    background-color: #614BA3;
+    color: #99E176;
+}
+
+td{
+    color:#5EB533;
+
+}
+
+caption{
+    caption-side: top;
+    color: #99E176;
+}
 #gameDescription {
     background-color: rgb(96, 147, 175);
     width: 300px;
