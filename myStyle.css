@@ -73,6 +73,14 @@ nav a:active {
     color: rgb(55, 33, 120)
 }
 
+form{
+    color: black;
+}
+
+#form {
+    color: black;
+}
+
 aside {
     width: 210px;
     height: 500px;
