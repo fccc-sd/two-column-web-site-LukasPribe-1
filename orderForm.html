@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a Pizza Order Form.">
+    <meta name="keywords" content="Lukas Pribe Four County, Pizza Order Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizza Order Form</title>
+    <link href="CSS/bootstrap.css" rel="stylesheet"> 
+        <link href="CSS/myStyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-md">
+        <header>
+            <h1>Lukas Pribe's Web Page</h1>
+            <h2>Pizza Order Form</h2>
+        </header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html" title="Home Page">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="page2.html" title="Second Page">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="orderForm.html" title="Pizza Order Form">Pizza Order Form</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="page5.html" title="960 Page">960 Page</a></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Games
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="page3.html" title="Pong Page">Pong</a></li>
+                        <li><a class="dropdown-item" href="page4.html" title="UnityGame Page">KartGame</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <form id="email_form" action="my_app.php" method="post">
+            <br>
+            Customer Name: <Input type="text" name="customer" id="customer" placeholder="Enter your name" autofocus><br>
+                <br>
+            Address: <Input type="text" name="address" id="address" placeholder="Enter your address"><br>
+                <br>
+                <p id="form">Pick a size for your pizza.</p>
+            <fieldset>
+                <Input type="radio" name="small" id="small" value="S">
+                <label for="small">Small</label><br>
+                <Input type="radio" name="medium" id="medium" value="M" checked>
+                <label for="medium">Medium</label><br>
+                <Input type="radio" name="large" id="large" value="L">
+                <label for="large">Large</label><br>
+            </fieldset>
+            <br>
+            <p id="form">Pick your toppings.</p>
+            <fieldset>
+                <Input type="checkbox" name="pepperoni" id="pepperoni" value="Pe">
+                <label for="pepperoni">Pepperoni</label><br>
+                <Input type="checkbox" name="bacon" id="bacon" value="B">
+                <label for="bacon">Bacon</label><br>
+                <Input type="checkbox" name="ham" id="ham" value="H">
+                <label for="ham">Ham</label><br>
+                <Input type="checkbox" name="mushroom" id="mushroom" value="M">
+                <label for="mushroom">Mushroom</label><br>
+                <Input type="checkbox" name="pineapple" id="pineapple" value="Pa">
+                <label for="pineapple">Pineapple</label><br>
+            </fieldset>
+            <br>
+            <p id="form">Notes to the cook:</p>
+            <textarea name="comments" id="comment" cols="30" rows="10"></textarea> <br>
+            <p>
+            <Input id="submit" type="submit" value="Submit">
+            <Input type="reset" id="restform" value="Reset">
+            </p>
+            <br>
+            <br>
+        </form>
+
+        <footer>
+            <h6>Copyright &copy; 2024 Lukas Pribe</h6>
+        </footer>
+
+    </div>
+    <script src="JS/bootstrap.bundle.js"></script>
+</body>
+
+</html>

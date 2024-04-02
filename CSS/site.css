@@ -1,0 +1,61 @@
+body{
+background-color: black;
+}
+
+header{
+    color: rgb(97, 75, 163);
+    background-color: rgb(142, 184, 207);
+    font: bold 1.875em/2em Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: rgb(127, 107, 187);
+}
+
+nav li {
+    padding-right: 40px;
+    display: inline;
+    list-style-type: none;
+}
+
+nav a:link {
+    color: rgb(184, 237, 159);
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: rgb(184, 237, 159);
+}
+    
+
+nav a:hover {
+    color: rgb(153, 225, 118);
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: rgb(94, 181, 51);
+}
+
+aside{
+background-color: rgb(64, 120, 150);
+height: 300px;
+}
+
+section{
+background-color: rgb(64, 120, 150);
+height: 300px;
+}
+
+footer{
+background-color: rgb(43, 103, 135);
+color: rgb(55, 33, 121);
+}
+
+p{
+    color: rgb(168, 153, 214);
+}
+
+ul{
+    color: rgb(97, 182, 52);
+}
